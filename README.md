@@ -13,7 +13,10 @@
 - Crear un servidor virtual (opcional) con el comando : php -S localhost:8000 -t public/ . Apartir de ahora nuestro proyecto se iniciara desde localhost:8000
 - Crear el modelo, controlador y migracion de cada una de mis tablas: php artisan  make:model -m nombreTabla
 - En el caso de que clones este repositorio debes ejecutar el comando "composer install" para instalar las dependencias. Añadir el archivo ".env" teniendo como guia ".env.exampple". Dentro del archivo ".env" configurar el servidor de la base de dato (mysql) y el nombre de la base de datos. Luego generar la key con el comando "php artisan key:generate". Por ultimo realizar la migracion con "php artisan migrate".
-- 
+
+## Creación de las tablas
+
+- Con el comando "php artisan make:migration nombreTabla" creamos la migracion de cada una de las tablas
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
